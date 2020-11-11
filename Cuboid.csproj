@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\cuboid.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sphere.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

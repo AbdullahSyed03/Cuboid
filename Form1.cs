@@ -49,6 +49,42 @@ namespace Cuboid
         {
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label6_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                double Radius = double.Parse(textBox4.Text);
+                double Surfacearea = 4.0 * Math.PI * (Radius * Radius);
+                label7.Text = "Surface Area" + Surfacearea;
+            }
+            catch
+            {
+                MessageBox.Show("Error on input");
+            }
+
+
+            {
+                try
+                {
+                    double Radius = double.Parse(textBox4.Text);
+                    double Volume = 4.0 / 3.0 * (Math.PI * (Radius * Radius * Radius));
+                    label8.Text = "Volume" + Volume;
+                }
+                catch
+
+                {
+                    MessageBox.Show("Error on input");
+
+                }
+            }
+        }
     }
     
 }
