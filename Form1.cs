@@ -85,6 +85,16 @@ namespace Cuboid
                 }
             }
         }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
